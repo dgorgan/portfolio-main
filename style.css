@@ -1,0 +1,158 @@
+body {
+	background: url("img/background.png");
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	margin: 0 auto;
+}
+
+header {
+	background: url('img/cove-bg.jpg');
+	border-radius: 5px;
+}
+
+header, h1 {
+	text-align: center;
+	letter-spacing: 0.5em;
+	font-family: helvetica;
+	color: white;
+	font-family: 'Play', sans-serif;
+}
+
+header h2, h2 {
+	font-size: 2.0em;
+	font-family: 'Play', sans-serif;
+	letter-spacing: 0.3em;
+	margin-top: -0.5em;
+}
+
+
+section {
+	text-align: center;
+	padding: 3.125em;
+	line-height: 2.00em;
+	/*padding: 0 auto;*/
+}
+
+
+.marquee {
+	margin-top: 10px;
+	padding: 10px;
+	overflow: hidden;
+	background: #ccc;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
+	background: rgb(149,149,149); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(149,149,149,1)), color-stop(46%,rgba(13,13,13,1)), color-stop(50%,rgba(1,1,1,1)), color-stop(53%,rgba(10,10,10,1)), color-stop(76%,rgba(78,78,78,1)), color-stop(87%,rgba(56,56,56,1)), color-stop(100%,rgba(27,27,27,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+	border-radius: 5px;
+	color: #FFCCFF;
+}
+
+
+img {
+	max-width: 100%;
+	height: 12.5em;
+	border: 5px solid #280000;
+	border-radius: 10px;
+	margin: 10px 0 0 0 ;
+}
+
+
+img:hover {
+	box-shadow: 1px 1px 1px 1px violet;
+	width: 13.125em;
+  background: red;
+  -webkit-transition: width 0.1s; /* Safari */
+  transition: width 0.1s;
+  -webkit-transition: width 0.1s; /* Safari */
+  transition: width 0.1s;
+}
+
+
+
+/*#contact {
+	margin-top: -2.875em;
+}*/
+
+footer li {
+	display: inline;
+	padding: 1.25em;
+	font-size: 1.125em;
+}
+
+/*#footer {
+	bottom: 0;
+}*/
+
+.tlt-contact {
+	margin-top: -1.5em;
+}
+
+
+footer h3 {
+	font-size: 1.75em;
+	font-weight: bold;
+	text-align: center;
+}
+
+button {
+  color: rgba(255,255,255,1);
+  background-color: rgba(200,07,55,1);
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 1em;
+  font-weight: 700;
+  width: 6.25em;
+  height: 2.1875em;
+}
+
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.contact-info a {
+  display: inline;
+  min-height: 1.25em;
+  background-repeat: no-repeat;
+  background-size: 1.25em 1.25em;
+  padding: 0 0 0 1.875em;
+  margin: 0 0 0.625em;
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+}
+
+.contact-info li.phone a {
+  background-image: url('img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('img/twitter.png');
+}
+
+.contact-info li.facebook a {
+  background-image: url('img/facebook.png');
+}
+
+.portfolio {
+	width: 90%;
+	margin: 0 auto;
+}
+.portfolio-images {
+	width: 220px;
+	height: 220px;
+}
+
+.facebook {
+	color: white;
+}
