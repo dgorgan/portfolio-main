@@ -1,6 +1,6 @@
 /* Preload images */
 body:after {
-  content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
+  content: url(../img/mydoc.png) url(../img/tldr.png) url(../img/tackitup.png);
   display: none;
 }
 
@@ -60,9 +60,9 @@ body:after {
   clear: both;
 }
 
-.lb-container {
+/*.lb-container {
   padding: 4px;
-}
+}*/
 
 .lb-loader {
   position: absolute;
@@ -174,9 +174,9 @@ body:after {
 }
 
 .lb-data .lb-caption {
-  font-size: 13px;
+  font-size: 1.25em;
   font-weight: bold;
-  line-height: 1em;
+  line-height: 2em;
 }
 
 .lb-data .lb-number {
@@ -190,9 +190,10 @@ body:after {
 .lb-data .lb-close {
   display: block;
   float: right;
+  margin-top: 1em;
   width: 30px;
   height: 30px;
-  background: url(../images/close.png) top right no-repeat;
+  background: url(img/close.png) top right no-repeat;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
