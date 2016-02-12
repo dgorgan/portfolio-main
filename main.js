@@ -28,20 +28,10 @@ $(function() {
     }
   });
 
-  $(window).on('scroll', function() {
-    var y_scroll_pos = window.pageYOffset;
-    var scroll_pos_test = 200;
-    if(y_scroll_pos > scroll_pos_test) {
-      $('h3').css({"font-size": "2.6em", "transition": "1s"});
-    } else {
-      $('h3').css({"font-size": "2em"});
-    }
-});
-
   $("button").click(function() {
     $('#pic').slideToggle("slow");
     $('.marquee').fadeToggle();
-    $('header > span').css('padding', '10px')
+    $('header > span').css('padding', '5px')
   });
 
   $('.marquee').marquee();
